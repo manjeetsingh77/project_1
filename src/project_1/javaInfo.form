@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="72" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton2" min="-2" pref="164" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="209" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="62" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="379" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Black" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="JAVA"/>
+          </Properties>
+          <Events>
+            <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="jLabel1AncestorAdded"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="50" green="3e" red="2b" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Basics of Java&#x9;&#x9;&#x9;&#x9;&#x9;&#xa;&#xa;&#x9;Java - What, Where and Why? &#xa;&#x9;History and Features of Java &#xa;&#x9;Internals of Java Program&#xa;&#x9;Difference between JDK,JRE and JVM &#xa;&#x9;Internal Details of JVM &#xa;&#x9;Variable and Data Type&#xa;&#x9;Unicode System &#xa;&#x9;Naming Convention&#xa;&#xa;OOPS Conecpts&#xa;&#xa;&#x9;Advantage of OOPs&#xa;&#x9;Object and Class&#xa;&#x9;Method Overloading&#xa;&#x9;Constructor&#xa;&#x9;static variable, method and block &#xa;&#x9;this keyword&#xa;&#x9;Inheritance (IS-A)&#xa;&#x9;Aggregation and Composition(HAS-A)&#xa;&#x9;Method Overriding&#xa;&#x9;Covariant Return Type&#xa;&#x9;super keyword&#xa;&#x9;Instance Initializer block&#xa;&#x9;final keyword&#xa;&#x9;Runtime Polymorphism&#xa;&#x9;static and Dynamic binding&#xa;&#x9;Abstract class and Interface&#xa;&#x9;Downcasting with instanceof operator&#xa;&#x9;Package and Access Modifiers&#xa;&#x9;Encapsulation&#xa;&#x9;Object class &#xa;&#x9;Object Cloning&#xa;&#x9;Java Array&#xa;&#x9;Call By Value and Call By Reference&#xa;&#x9;strictfp keyword&#xa;&#x9;Creating API Document&#xa;&#xa;&#xa;String Handling&#xa;&#xa;&#x9;String : What and Why?&#xa;&#x9;Immutable String &#xa;&#x9;String Comparison &#xa;&#x9;String Concatenation &#xa;&#x9;Substring &#xa;&#x9;Methods of String class&#xa;&#x9;StringBuffer class &#xa;&#x9;StringBuilder class &#xa;&#x9;Creating Immutable class&#xa;&#x9;toString method &#xa;&#x9;StringTokenizer class&#xa;&#xa;Exception Handling&#xa;&#xa;&#x9;Exception Handling : What and Why? &#xa;&#x9;try and catch block &#xa;&#x9;Multiple catch block &#xa;&#x9;Nested try &#xa;&#x9;finally block &#xa;&#x9;throw keyword &#xa;&#x9;Exception Propagation &#xa;&#x9;throws keyword &#xa;&#x9;Exception Handling with Method Overriding&#xa;&#x9;Custom Exception &#xa;&#xa;Nested Classes&#xa;&#xa;&#x9;Nested Class : What and Why?&#xa;&#x9;Member Inner class &#xa;&#x9;Annonymous Inner class &#xa;&#x9;Local Inner class &#xa;&#x9;static nested class &#xa;&#x9;Nested Interface &#xa;&#xa;&#xa;Multithreading&#xa;&#xa;&#x9;Multithreading : What and Why?&#xa;&#x9;Life Cycle of a Thread &#xa;&#x9;Creating Thread &#xa;&#x9;Thread Schedular &#xa;&#x9;Sleeping a thread&#xa;&#x9;Joining a thread &#xa;&#x9;Thread Priority &#xa;&#x9;Daemon Thread &#xa;&#x9;Thread Pooling &#xa;&#x9;Thread Group &#xa;&#x9;ShutdownHook &#xa;&#x9;Performing multiple task by multiple thread &#xa;&#x9;Garbage Collection &#xa;&#x9;Runnable class &#xa;&#xa;&#xa;Synchronization&#xa;&#xa;&#x9;Synchronization : What and Why?&#xa;&#x9;synchronized method &#xa;&#x9;synchronized block &#xa;&#x9;static synchronization &#xa;&#x9;Deadlock &#xa;&#x9;Inter-thread Communication&#xa;&#x9;Interrupting Thread &#xa;&#xa;Input and output&#xa;&#xa;&#x9;FileOutputStream &amp; FileInputStream &#xa;&#x9;ByteArrayOutputStream &#xa;&#x9;SequenceInputStream &#xa;&#x9;BufferedOutputStream &amp; BufferedInputStream &#xa;&#x9;FileWriter &amp; FileReader &#xa;&#x9;CharArrayWriter &#xa;&#x9;Input from keyboard by InputStreamReader &#xa;&#x9;Input from keyboard by Console &#xa;&#x9;Input from keyboard by Scanner &#xa;&#x9;PrintStream class &#xa;&#x9;PrintWriter class &#xa;&#x9;Compressing and Uncompressing File &#xa;&#x9;Reading and Writing data simultaneously &#xa;&#x9;DataInputStream and DataOutputStream &#xa;&#x9;StreamTokenizer class &#xa;&#xa;Serialization&#xa;&#xa;&#x9;Serialization &amp; Deserialization&#xa;&#x9;Serialization with IS-A and Has-A&#xa;&#x9;transient keyword &#xa;&#xa;Networking&#xa;&#xa;&#x9;Socket Programming &#xa;&#x9;URL class &#xa;&#x9;Displaying data of a web page &#xa;&#x9;InetAddress class &#xa;&#x9;DatagramSocket and DatagramPacket &#xa;&#x9;Two way communication &#xa;&#xa;AWT and EventHandling&#xa;&#xa;&#x9;AWT Controls&#xa;&#x9;Event Handling by 3 ways&#xa;&#x9;Event classes and Listener Interfaces&#xa;&#x9;Adapter classes&#xa;&#x9;Creating Games and Applications&#xa;&#xa;Swing&#xa;&#xa;&#x9;Basics of Swing &#xa;&#x9;JButton class &#xa;&#x9;JRadioButton class &#xa;&#x9;JTextArea class &#xa;&#x9;JComboBox class &#xa;&#x9;JTable class &#xa;&#x9;JColorChooser class &#xa;&#x9;JProgressBar class &#xa;&#x9;JSlider class &#xa;&#x9;Digital Watch &#xa;&#x9;Graphics in swing &#xa;&#x9;Displaying Image &#xa;&#x9;Edit Menu for Notepad&#xa;&#x9;Open Dialog Box &#xa;&#x9;Creating Notepad &#xa;&#x9;Creating Games and applications&#xa;&#xa;LayoutManagers&#xa;&#xa;&#x9;BorderLayout &#xa;&#x9;GridLayout &#xa;&#x9;FlowLayout &#xa;&#x9;BoxLayout &#xa;&#x9;CardLayout &#xa;&#xa;Applet&#xa;&#xa;&#x9;Life Cycle of Applet &#xa;&#x9;Graphics in Applet &#xa;&#x9;Displaying image in Applet &#xa;&#x9;Animation in Applet &#xa;&#x9;EventHandling in Applet &#xa;&#x9;JApplet class &#xa;&#x9;Painting in Applet &#xa;&#x9;Digital Clock in Applet &#xa;&#x9;Analog Clock in Applet &#xa;&#x9;Parameter in Applet &#xa;&#x9;Applet Communication &#xa;&#x9;Creating Games&#xa;&#xa;Reflection API&#xa;&#xa;&#x9;Reflection API &#xa;&#x9;newInstance() &amp; Determining the class object &#xa;&#x9;javap tool &#xa;&#x9;creating javap tool &#xa;&#x9;creating appletviewer &#xa;&#x9;Accessing private method from outside the class &#xa;&#xa;Collection&#xa;&#xa;&#x9;Collection Framework &#xa;&#x9;ArrayList class &#xa;&#x9;LinkedList class &#xa;&#x9;ListIterator interface &#xa;&#x9;HashSet class &#xa;&#x9;LinkedHashSet class &#xa;&#x9;TreeSet class &#xa;&#x9;PriorityQueue class &#xa;&#x9;ArrayDeque class &#xa;&#x9;Map interface &#xa;&#x9;HashMap class&#xa;&#x9;LinkedHashMap class &#xa;&#x9;TreeMap class &#xa;&#x9;Hashtable class &#xa;&#x9;Comparable and Comparator &#xa;&#x9;Properties class &#xa;JDBC&#xa;&#xa;&#x9;JDBC Drivers&#xa;&#x9;Steps to connect to the database &#xa;&#x9;Connectivity with Oracle &#xa;&#x9;Connectivity with MySQL &#xa;&#x9;Connectivity with Access without DSN &#xa;&#x9;DriverManager &#xa;&#x9;Connection interface &#xa;&#x9;Statement interface &#xa;&#x9;ResultSet interface &#xa;&#x9;PreparedStatement &#xa;&#x9;ResultSetMetaData &#xa;&#x9;DatabaseMetaData &#xa;&#x9;Storing image &#xa;&#x9;Retrieving image &#xa;&#x9;Storing file &#xa;&#x9;Retrieving file &#xa;&#x9;Stored procedures and functions &#xa;&#x9;Transaction Management &#xa;&#x9;Batch Processing &#xa;&#x9;JDBC New Features&#xa;&#x9;Mini Project &#xa;&#xa;Java New Features&#xa;&#xa;&#x9;Assertion &#xa;&#x9;For-each loop &#xa;&#x9;Varargs &#xa;&#x9;Static Import &#xa;&#x9;Autoboxing and Unboxing &#xa;&#x9;Enum Type &#xa;&#x9;Annotation &#xa;&#xa;&#xa;Internationalization&#xa;&#xa;&#x9;Internationalization &#xa;&#x9;ResourceBundle class &#xa;&#x9;I18N with Date &#xa;&#x9;I18N with Time &#xa;&#x9;I18N with Number &#xa;&#x9;I18N with Currency &#xa;"/>
+                <Property name="autoscrolls" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="a7" red="22" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Home"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="6" green="94" red="f8" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="605" max="32767" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="504" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" max="32767" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" pref="45" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel3" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Verdana" size="18" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="X"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Verdana" size="18" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Information "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Wide Latin" size="18" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel4MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="a7" red="22" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Registration "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
